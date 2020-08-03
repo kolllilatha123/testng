@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Google Apps" duration-ms="131" started-at="2020-08-03T07:25:22Z" finished-at="2020-08-03T07:25:22Z">
+    <groups>
+      <group name="adhoc">
+        <method signature="Sample.logoutapp()[pri:0, instance:org.sample.Sample@59f99ea]" name="logoutapp" class="org.sample.Sample"/>
+        <method signature="Sample.te()[pri:0, instance:org.sample.Sample@59f99ea]" name="te" class="org.sample.Sample"/>
+      </group> <!-- adhoc -->
+    </groups>
+    <test name="Regression" duration-ms="131" started-at="2020-08-03T07:25:22Z" finished-at="2020-08-03T07:25:22Z">
+      <class name="org.sample.Sample">
+        <test-method status="PASS" signature="logoutapp()[pri:0, instance:org.sample.Sample@59f99ea]" name="logoutapp" duration-ms="41" started-at="2020-08-03T07:25:22Z" finished-at="2020-08-03T07:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutapp -->
+        <test-method status="PASS" signature="te()[pri:0, instance:org.sample.Sample@59f99ea]" name="te" duration-ms="4" started-at="2020-08-03T07:25:22Z" finished-at="2020-08-03T07:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- te -->
+      </class> <!-- org.sample.Sample -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing Google Apps -->
+</testng-results>

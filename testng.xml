@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps">
+    <test name="Regression">
+    <groups>
+   		 <run>
+    
+			
+ 		 	<include name="adhoc"></include>
+    
+    	</run>
+    </groups>
+         <classes>
+             <class name="org.sample.Sample"/>
+            
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
